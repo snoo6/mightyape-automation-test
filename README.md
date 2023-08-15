@@ -1,1 +1,1 @@
-# mightyape-automation-test
+# Mightyape Automation Test
