@@ -19,15 +19,9 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://uitestingplayground.com/sampleapp')
+WebUI.navigateToUrl('https://www.bargainbox.co.nz/a')
 
-WebUI.setText(findTestObject('Object Repository/Page_Sample App/input_User logged out_UserName'), 'hello')
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Sample App/input_User logged out_Password'), 'CmvH00NJorg=')
-
-WebUI.click(findTestObject('Object Repository/Page_Sample App/button_Log In'))
-
-WebUI.click(findTestObject('Object Repository/Page_Sample App/button_Log Out'))
+WebUI.click(findTestObject('Object Repository/Page_Bargain Box - NZs most affordable meal kit/a_Sign Up'))
 
 WebUI.closeBrowser()
 

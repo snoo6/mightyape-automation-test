@@ -14,8 +14,8 @@ import internal.GlobalVariable as GlobalVariable
 
 Map<String, String> suiteProperties = new HashMap<String, String>();
 
-suiteProperties.put('id', 'Test Suites/Test Suite 001')
-suiteProperties.put('name', 'Test Suite 001')
+suiteProperties.put('id', 'Test Suites/Test Suite Sample App')
+suiteProperties.put('name', 'Test Suite Sample App')
 suiteProperties.put('description', '')
 suiteProperties.put('rerunTestFailImmediately', 'true')
 suiteProperties.put('retryCount', '3')
@@ -29,8 +29,8 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.t
 
 
 
-RunConfiguration.setExecutionSettingFile("/Users/admin/git/mightyape-automation-test/Reports/20230817_105251/Test Suite 001/20230817_105251/execution.properties")
+RunConfiguration.setExecutionSettingFile("/Users/admin/git/mightyape-automation-test/Reports/20230817_114752/Test Suite Sample App/20230817_114752/execution.properties")
 
 TestCaseMain.beforeStart()
 
-TestCaseMain.startTestSuite('Test Suites/Test Suite 001', suiteProperties, new File("/Users/admin/git/mightyape-automation-test/Reports/20230817_105251/Test Suite 001/20230817_105251/testCaseBinding"))
+TestCaseMain.startTestSuite('Test Suites/Test Suite Sample App', suiteProperties, new File("/Users/admin/git/mightyape-automation-test/Reports/20230817_114752/Test Suite Sample App/20230817_114752/testCaseBinding"))
