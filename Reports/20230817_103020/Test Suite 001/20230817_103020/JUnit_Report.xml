@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Suite 001" time="35.988" tests="2" failures="0" errors="0">
+   <testsuite name="Test Suite 001" tests="2" failures="0" errors="0" time="35.988" skipped="0" timestamp="2023-08-17 10:30:23" hostname="admin - localhost" id="Test Suites/Test Suite 001">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/admin/git/mightyape-automation-test/Reports/20230817_103020/Test Suite 001/20230817_103020"/>
+         <property name="logFiles" value="/Users/admin/git/mightyape-automation-test/Reports/20230817_103020/Test Suite 001/20230817_103020/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="admin - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="8.6.5.208"/>
+         <property name="browser" value="Firefox 116.0"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="a38aa448-fce5-48f3-9a4e-30f7c460f6b6"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Test002" time="16.547" classname="Test Cases/Test002" status="PASSED">
+         <system-out><![CDATA[2023-08-17 10:30:23 - [TEST_CASE][PASSED] - Test Cases/Test002: Test Cases/Test002
+
+2023-08-17 10:30:24 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-08-17 10:30:24 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-08-17 10:30:24 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-17 10:30:28 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-08-17 10:30:28 - [TEST_STEP][PASSED] - navigateToUrl("https://www.mightyape.co.nz/"): Navigate to 'https://www.mightyape.co.nz/' successfully
+
+2023-08-17 10:30:32 - [MESSAGE][PASSED] - Navigate to 'https://www.mightyape.co.nz/' successfully
+
+2023-08-17 10:30:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_MightyApe.co.nz  Buy Games, Books, Toy_ee1332/span_Log In")): Object: 'Object Repository/Page_MightyApe.co.nz  Buy Games, Books, Toy_ee1332/span_Log In' is clicked on
+
+2023-08-17 10:30:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MightyApe.co.nz  Buy Games, Books, Toy_ee1332/span_Log In' is clicked on
+
+2023-08-17 10:30:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login at Mighty Ape NZ/input_Email address__username"), "qa.snoo@gmail.com"): Text 'qa.snoo@gmail.com' is set on object 'Object Repository/Page_Login at Mighty Ape NZ/input_Email address__username'
+
+2023-08-17 10:30:36 - [MESSAGE][PASSED] - Text 'qa.snoo@gmail.com' is set on object 'Object Repository/Page_Login at Mighty Ape NZ/input_Email address__username'
+
+2023-08-17 10:30:36 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Login at Mighty Ape NZ/input_Password__password"), "RigbBhfdqOBDK95asqKeHw=="): Text ****** has been set on object 'Object Repository/Page_Login at Mighty Ape NZ/input_Password__password'
+
+2023-08-17 10:30:36 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login at Mighty Ape NZ/input_Password__password'
+
+2023-08-17 10:30:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login at Mighty Ape NZ/input_submit")): Object: 'Object Repository/Page_Login at Mighty Ape NZ/input_submit' is clicked on
+
+2023-08-17 10:30:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login at Mighty Ape NZ/input_submit' is clicked on
+
+2023-08-17 10:30:39 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-08-17 10:30:40 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test001" time="19.17" classname="Test Cases/Test001" status="PASSED">
+         <system-out><![CDATA[2023-08-17 10:30:40 - [TEST_CASE][PASSED] - Test Cases/Test001: Test Cases/Test001
+
+2023-08-17 10:30:40 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-08-17 10:30:40 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-08-17 10:30:40 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-17 10:30:43 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-08-17 10:30:43 - [TEST_STEP][PASSED] - navigateToUrl("https://www.mightyape.co.nz/"): Navigate to 'https://www.mightyape.co.nz/' successfully
+
+2023-08-17 10:30:47 - [MESSAGE][PASSED] - Navigate to 'https://www.mightyape.co.nz/' successfully
+
+2023-08-17 10:30:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_MightyApe.co.nz  Buy Games, Books, Toy_ee1332/span_Log In")): Object: 'Object Repository/Page_MightyApe.co.nz  Buy Games, Books, Toy_ee1332/span_Log In' is clicked on
+
+2023-08-17 10:30:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MightyApe.co.nz  Buy Games, Books, Toy_ee1332/span_Log In' is clicked on
+
+2023-08-17 10:30:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login at Mighty Ape NZ/input_Email address__username"), "qa.snoo@gmail.com"): Text 'qa.snoo@gmail.com' is set on object 'Object Repository/Page_Login at Mighty Ape NZ/input_Email address__username'
+
+2023-08-17 10:30:51 - [MESSAGE][PASSED] - Text 'qa.snoo@gmail.com' is set on object 'Object Repository/Page_Login at Mighty Ape NZ/input_Email address__username'
+
+2023-08-17 10:30:51 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Login at Mighty Ape NZ/input_Password__password"), "RigbBhfdqOBDK95asqKeHw=="): Text ****** has been set on object 'Object Repository/Page_Login at Mighty Ape NZ/input_Password__password'
+
+2023-08-17 10:30:51 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login at Mighty Ape NZ/input_Password__password'
+
+2023-08-17 10:30:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login at Mighty Ape NZ/input_submit")): Object: 'Object Repository/Page_Login at Mighty Ape NZ/input_submit' is clicked on
+
+2023-08-17 10:30:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login at Mighty Ape NZ/input_submit' is clicked on
+
+2023-08-17 10:30:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_MightyApe.co.nz  Buy Games, Books, Toy_ee1332/span_Snoo_tool-chevron icon-dropdown-arrow")): Object: 'Object Repository/Page_MightyApe.co.nz  Buy Games, Books, Toy_ee1332/span_Snoo_tool-chevron icon-dropdown-arrow' is clicked on
+
+2023-08-17 10:30:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MightyApe.co.nz  Buy Games, Books, Toy_ee1332/span_Snoo_tool-chevron icon-dropdown-arrow' is clicked on
+
+2023-08-17 10:30:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_MightyApe.co.nz  Buy Games, Books, Toy_ee1332/a_Log Out")): Object: 'Object Repository/Page_MightyApe.co.nz  Buy Games, Books, Toy_ee1332/a_Log Out' is clicked on
+
+2023-08-17 10:30:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MightyApe.co.nz  Buy Games, Books, Toy_ee1332/a_Log Out' is clicked on
+
+2023-08-17 10:30:58 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-08-17 10:30:59 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-08-17 10:30:23 - [TEST_SUITE][PASSED] - Test Suite 001: Test Cases/Test001]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

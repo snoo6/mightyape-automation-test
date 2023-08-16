@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suite 001,Firefox 116.0,,,2023-08-17 10:30:23,2023-08-17 10:30:59,35.988s,PASSED
+,,,,,,,
+Test Cases/Test002,Firefox 116.0,Test Only login,,2023-08-17 10:30:23,2023-08-17 10:30:40,16.547s,PASSED
+"openBrowser("""")",Firefox 116.0,,,2023-08-17 10:30:24,2023-08-17 10:30:28,4.637s,PASSED
+"navigateToUrl(""https://www.mightyape.co.nz/"")",Firefox 116.0,,,2023-08-17 10:30:28,2023-08-17 10:30:32,3.651s,PASSED
+"click(findTestObject(""Object Repository/Page_MightyApe.co.nz  Buy Games, Books, Toy_ee1332/span_Log In""))",Firefox 116.0,,,2023-08-17 10:30:32,2023-08-17 10:30:34,2.418s,PASSED
+"setText(findTestObject(""Object Repository/Page_Login at Mighty Ape NZ/input_Email address__username""), ""qa.snoo@gmail.com"")",Firefox 116.0,,,2023-08-17 10:30:34,2023-08-17 10:30:36,1.696s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Login at Mighty Ape NZ/input_Password__password""), ""RigbBhfdqOBDK95asqKeHw=="")",Firefox 116.0,,,2023-08-17 10:30:36,2023-08-17 10:30:36,0.331s,PASSED
+"click(findTestObject(""Object Repository/Page_Login at Mighty Ape NZ/input_submit""))",Firefox 116.0,,,2023-08-17 10:30:36,2023-08-17 10:30:39,2.475s,PASSED
+closeBrowser(),Firefox 116.0,,,2023-08-17 10:30:39,2023-08-17 10:30:40,1.024s,PASSED
+,,,,,,,
+Test Cases/Test001,Firefox 116.0,Login with credential,,2023-08-17 10:30:40,2023-08-17 10:30:59,19.170s,PASSED
+"openBrowser("""")",Firefox 116.0,,,2023-08-17 10:30:40,2023-08-17 10:30:43,3.385s,PASSED
+"navigateToUrl(""https://www.mightyape.co.nz/"")",Firefox 116.0,,,2023-08-17 10:30:43,2023-08-17 10:30:47,3.423s,PASSED
+"click(findTestObject(""Object Repository/Page_MightyApe.co.nz  Buy Games, Books, Toy_ee1332/span_Log In""))",Firefox 116.0,,,2023-08-17 10:30:47,2023-08-17 10:30:49,2.538s,PASSED
+"setText(findTestObject(""Object Repository/Page_Login at Mighty Ape NZ/input_Email address__username""), ""qa.snoo@gmail.com"")",Firefox 116.0,,,2023-08-17 10:30:49,2023-08-17 10:30:51,1.669s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Login at Mighty Ape NZ/input_Password__password""), ""RigbBhfdqOBDK95asqKeHw=="")",Firefox 116.0,,,2023-08-17 10:30:51,2023-08-17 10:30:51,0.292s,PASSED
+"click(findTestObject(""Object Repository/Page_Login at Mighty Ape NZ/input_submit""))",Firefox 116.0,,,2023-08-17 10:30:51,2023-08-17 10:30:54,2.208s,PASSED
+"click(findTestObject(""Object Repository/Page_MightyApe.co.nz  Buy Games, Books, Toy_ee1332/span_Snoo_tool-chevron icon-dropdown-arrow""))",Firefox 116.0,,,2023-08-17 10:30:54,2023-08-17 10:30:55,1.371s,PASSED
+"click(findTestObject(""Object Repository/Page_MightyApe.co.nz  Buy Games, Books, Toy_ee1332/a_Log Out""))",Firefox 116.0,,,2023-08-17 10:30:55,2023-08-17 10:30:58,3.018s,PASSED
+closeBrowser(),Firefox 116.0,,,2023-08-17 10:30:58,2023-08-17 10:30:59,1.042s,PASSED
