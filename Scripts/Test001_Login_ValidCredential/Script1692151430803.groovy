@@ -25,11 +25,13 @@ WebUI.click(findTestObject('Object Repository/Page_MightyApe.co.nz  Buy Games, B
 
 WebUI.setText(findTestObject('Object Repository/Page_Login at Mighty Ape NZ/input_Email address__username'), 'qa.snoo@gmail.com')
 
-WebUI.click(findTestObject('Object Repository/Page_Login at Mighty Ape NZ/div_Password'))
-
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_Login at Mighty Ape NZ/input_Password__password'), 'RigbBhfdqOBDK95asqKeHw==')
 
 WebUI.click(findTestObject('Object Repository/Page_Login at Mighty Ape NZ/input_submit'))
+
+WebUI.click(findTestObject('Object Repository/Page_MightyApe.co.nz  Buy Games, Books, Toy_ee1332/span_Snoo_tool-chevron icon-dropdown-arrow'))
+
+WebUI.click(findTestObject('Object Repository/Page_MightyApe.co.nz  Buy Games, Books, Toy_ee1332/a_Log Out'))
 
 WebUI.closeBrowser()
 
