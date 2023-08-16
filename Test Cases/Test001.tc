@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Login with credential</description>
+   <name>Test001</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7100f03d-3dab-4f30-aeaa-549771ad626a</testCaseGuid>
+</TestCaseEntity>
