@@ -18,9 +18,9 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.w
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.testng.keyword.internal.TestNGDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('/var/folders/4s/pg0q_brn2_b52yy96l6w57f00000gn/T/Katalon/Test Cases/Test001_Login_ValidCredential/20230816_150145/execution.properties')
+RunConfiguration.setExecutionSettingFile('/var/folders/4s/pg0q_brn2_b52yy96l6w57f00000gn/T/Katalon/Test Cases/Test001/20230816_155105/execution.properties')
 
 TestCaseMain.beforeStart()
 
-        TestCaseMain.runTestCase('Test Cases/Test001_Login_ValidCredential', new TestCaseBinding('Test Cases/Test001_Login_ValidCredential',[:]), FailureHandling.STOP_ON_FAILURE , false)
+        TestCaseMain.runTestCase('Test Cases/Test001', new TestCaseBinding('Test Cases/Test001',[:]), FailureHandling.STOP_ON_FAILURE , false)
     
