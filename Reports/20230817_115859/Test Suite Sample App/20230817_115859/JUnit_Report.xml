@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Suite Sample App" time="12.815" tests="1" failures="0" errors="0">
+   <testsuite name="Test Suite Sample App" tests="1" failures="0" errors="0" time="12.815" skipped="0" timestamp="2023-08-17 11:59:02" hostname="admin - localhost" id="Test Suites/Test Suite Sample App">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/admin/git/mightyape-automation-test/Reports/20230817_115859/Test Suite Sample App/20230817_115859"/>
+         <property name="logFiles" value="/Users/admin/git/mightyape-automation-test/Reports/20230817_115859/Test Suite Sample App/20230817_115859/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="admin - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="8.6.5.208"/>
+         <property name="browser" value="Firefox 116.0"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="63633a9b-e1fe-40fe-9385-98fb46f91ee9"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Sample App - Bargain Box" time="12.566" classname="Test Cases/Sample App - Bargain Box" status="PASSED">
+         <system-out><![CDATA[2023-08-17 11:59:02 - [TEST_CASE][PASSED] - Test Cases/Sample App - Bargain Box: Test Cases/Sample App - Bargain Box
+
+2023-08-17 11:59:02 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-08-17 11:59:02 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-08-17 11:59:02 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-17 11:59:07 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-08-17 11:59:07 - [TEST_STEP][PASSED] - navigateToUrl("https://www.bargainbox.co.nz/a"): Navigate to 'https://www.bargainbox.co.nz/a' successfully
+
+2023-08-17 11:59:10 - [MESSAGE][PASSED] - Navigate to 'https://www.bargainbox.co.nz/a' successfully
+
+2023-08-17 11:59:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Bargain Box - NZs most affordable meal kit/a_Sign Up")): Object: 'Object Repository/Page_Bargain Box - NZs most affordable meal kit/a_Sign Up' is clicked on
+
+2023-08-17 11:59:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Bargain Box - NZs most affordable meal kit/a_Sign Up' is clicked on
+
+2023-08-17 11:59:13 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-08-17 11:59:14 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-08-17 11:59:02 - [TEST_SUITE][PASSED] - Test Suite Sample App: Test Cases/Sample App - Bargain Box]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

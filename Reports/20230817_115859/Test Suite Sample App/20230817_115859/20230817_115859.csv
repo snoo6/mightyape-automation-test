@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suite Sample App,Firefox 116.0,,,2023-08-17 11:59:02,2023-08-17 11:59:14,12.815s,PASSED
+,,,,,,,
+Test Cases/Sample App - Bargain Box,Firefox 116.0,,,2023-08-17 11:59:02,2023-08-17 11:59:14,12.566s,PASSED
+"openBrowser("""")",Firefox 116.0,,,2023-08-17 11:59:02,2023-08-17 11:59:07,4.498s,PASSED
+"navigateToUrl(""https://www.bargainbox.co.nz/a"")",Firefox 116.0,,,2023-08-17 11:59:07,2023-08-17 11:59:10,3.711s,PASSED
+"click(findTestObject(""Object Repository/Page_Bargain Box - NZs most affordable meal kit/a_Sign Up""))",Firefox 116.0,,,2023-08-17 11:59:10,2023-08-17 11:59:13,2.943s,PASSED
+closeBrowser(),Firefox 116.0,,,2023-08-17 11:59:13,2023-08-17 11:59:14,1.090s,PASSED

@@ -29,8 +29,8 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.t
 
 
 
-RunConfiguration.setExecutionSettingFile("/Users/admin/git/mightyape-automation-test/Reports/20230817_114807/Test Suite Sample App/20230817_114807/execution.properties")
+RunConfiguration.setExecutionSettingFile("/Users/admin/git/mightyape-automation-test/Reports/20230817_115859/Test Suite Sample App/20230817_115859/execution.properties")
 
 TestCaseMain.beforeStart()
 
-TestCaseMain.startTestSuite('Test Suites/Test Suite Sample App', suiteProperties, new File("/Users/admin/git/mightyape-automation-test/Reports/20230817_114807/Test Suite Sample App/20230817_114807/testCaseBinding"))
+TestCaseMain.startTestSuite('Test Suites/Test Suite Sample App', suiteProperties, new File("/Users/admin/git/mightyape-automation-test/Reports/20230817_115859/Test Suite Sample App/20230817_115859/testCaseBinding"))
